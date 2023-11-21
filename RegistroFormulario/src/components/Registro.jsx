@@ -6,7 +6,8 @@ const Registro = () => {
         <>   
         
         <main>
-                <form><h1>Completa el registro</h1>
+                <form>
+                <h1>Completa el registro</h1>
                 <label htmlFor="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required />
                 <label htmlFor="apellido">Apellido:</label>
