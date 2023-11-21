@@ -1,8 +1,10 @@
 import React from 'react'
+import './Registro.css'
 
 const Registro = () => {
     return (
         <>
+        <main>
             <form>
                 <label htmlFor="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required />
@@ -18,6 +20,7 @@ const Registro = () => {
                 <input type="password" id="confirm-password" name="confirm-password" required />
                 <button type="submit">Registrar</button>
             </form>
+            </main>
         </>
     )
 }
