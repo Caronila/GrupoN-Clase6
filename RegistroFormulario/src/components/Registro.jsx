@@ -33,7 +33,7 @@ const Registro = () => {
                     <input type="password" id="confirm-password" name="confirm-password" required />
                     <button type="submit">Registrar</button>
                 </form>
-                <div>
+                <div className='parrafo'>
                     <p>{mensaje}</p>
                 </div>
 
